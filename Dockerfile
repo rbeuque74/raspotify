@@ -27,7 +27,7 @@ RUN dpkg --add-architecture arm64 \
         build-essential \
         libasound2-dev \
         libavahi-client-dev \
-        libavahi-compat-libdnssd-dev pkg-config \
+        libavahi-compat-libdnssd-dev:armhf \
         libpulse-dev \
         crossbuild-essential-arm64 \
         libasound2-dev:arm64 \
